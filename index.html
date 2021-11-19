@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- assets -->
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- icofont -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Perfume</title>
+  </head>
+  <body>
+
+    <!-- hero start -->
+    <section class="hero">
+      <!-- header start -->
+    <header>
+      <div class="container">
+
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/Logo.png" class="img-fluid nav-logo" alt="besnik">
+            </a>
+            <button class="navbar-toggler nav-tog" type="button" data-bs-toggle="collapse" data-bs-target="#navSupport" aria-controls="navSupport" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="images/Button.svg" class="img-fluid" alt="button">
+            </button>
+
+            <div class="collapse navbar-collapse menu" id="navSupport">
+              <ul class="navbar-nav m-auto mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#ingradients">INGREDIENTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#product">PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#contact">CONTACT</a>
+                </li>
+              </ul>
+              <a data-bs-toggle="modal" data-bs-target="#signupform" class="cart-button d-lg-block d-none" aria-current="page">
+                <img src="images/Button.svg" class="img-fluid" alt="button">
+              </a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="signupform" tabindex="-1" role="dialog" aria-labelledby="signupformLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close btn-close-white rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-12">
+                      <h2 class="p-h4 text-center">Stay up to date with us</h2>
+                      <p class="p-p text-center">Subscribe to our newsletter for product updates and latest news to your email.</p>
+                      <form action="#" class="fill-up-form">
+                        <div class="row">
+                          <div class="col-12"><input type="text" class="form-control rounded-pill" placeholder="Your Name" required></div>
+                          <div class="col-12"><input type="email" class="form-control rounded-pill" placeholder="Your Email" required></div>
+                          <div class="col-12 d-grid"><button type="submit" class="btn btn-custom btn-newsletter rounded-pill d-block">Subscribe Now</button></div>   
+                        </div>
+                      </form>
+                    </div>  
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- modal -->
+
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- banner start -->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            
+            <div id="carousel-Captions" class="carousel slide" data-bs-ride="carousel">
+              
+              <div class="carousel-inner">
+
+                <!-- single item -->
+                <div class="carousel-item active" data-bs-interval="7000">
+                  <div class="row justify-content-center">
+                    <div class="col-md-11">
+                      
+                      <div class="row pb-3 pb-sm-4 pb-xxl-5">
+                        <div class="col-md-5">
+                          <h1 class="car-h1">Calvin Klein Eternity</h1>
+                        </div>
+                        <div class="col-md-5 d-flex justify-content-center">
+                          <img src="images/banner/calvin-klein.png" class="img-fluid b-image" alt="calvin-klein">
+                        </div>
+                        <div class="col-md-2 m-auto ps-xl-4 p-top">
+                          <h4 class="car-h4">Details</h4>
+                          <h2 class="car-h2">$67.00</h2>
+                          <div class="big big1">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                          </div>
+                          <p class="car-p">75 ml</p>
+
+                          <button class="carousel-control-prev car-prev d-none d-md-inline-block" type="button" data-bs-target="#carousel-Captions" data-bs-slide="prev">
+                            <img src="images/arrow.png" class="img-fluid" alt="arrow">
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next car-next d-none d-md-inline-block" type="button" data-bs-target="#carousel-Captions" data-bs-slide="next">
+                            <img src="images/arrow.png" class="img-fluid" alt="arrow">
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+
+                      <div class="row pt-md-4 pt-lg-5 justify-content-sm-start justify-content-center">
+                        <div class="col-sm-7 col-md-5">
+                          <div class="row">
+                            <div class="col-md-3 d-none d-md-block">
+                              <div class="line"></div>
+                            </div>
+                            <div class="col-md-9">
+                              <p class="car-p car-left" style="color: #FCFBFB;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-sm-5 ps-lg-5 pe-lg-4">
+                          <a href="#" class="btn btn-custom rounded-pill">Add to cart +</a>
+                          <a href="#"><img src="images/banner/Play-button.png" class="img-fluid play-btn" alt="play-button"></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div> 
+                </div>
+                <!-- single item -->
+
+                <!-- single item -->
+                <div class="carousel-item" data-bs-interval="7000">
+                  <div class="row justify-content-center">
+                    <div class="col-md-11">
+                      
+                      <div class="row pb-3 pb-sm-4 pb-xxl-5">
+                        <div class="col-md-5">
+                          <h1 class="car-h1">Santal Royal Guerlain</h1>
+                        </div>
+                        <div class="col-md-5 d-flex justify-content-center">
+                          <img src="images/banner/guerlain-perfume.png" class="img-fluid b-image" alt="guerlain-perfume">
+                        </div>
+                        <div class="col-md-2 m-auto ps-xl-4 p-top">
+                          <h4 class="car-h4">Details</h4>
+                          <h2 class="car-h2">$199.75</h2>
+                          <div class="big big1">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                          </div>
+                          <p class="car-p">125 ml</p>
+
+                          <button class="carousel-control-prev car-prev d-none d-md-inline-block" type="button" data-bs-target="#carousel-Captions" data-bs-slide="prev">
+                            <img src="images/arrow.png" class="img-fluid" alt="arrow">
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next car-next d-none d-md-inline-block" type="button" data-bs-target="#carousel-Captions" data-bs-slide="next">
+                            <img src="images/arrow.png" class="img-fluid" alt="arrow">
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+
+                      <div class="row pt-md-4 pt-lg-5 justify-content-sm-start justify-content-center">
+                        <div class="col-sm-7 col-md-5">
+                          <div class="row">
+                            <div class="col-md-3 d-none d-md-block">
+                              <div class="line"></div>
+                            </div>
+                            <div class="col-md-9">
+                              <p class="car-p car-left" style="color: #FCFBFB;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-10 col-sm-5 ps-lg-5 pe-lg-4">
+                          <a href="#" class="btn btn-custom rounded-pill">Add to cart +</a>
+                          <a href="#"><img src="images/banner/Play-button.png" class="img-fluid play-btn" alt="play-button"></a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div> 
+                </div>
+                <!-- single item -->
+                
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- feature start -->
+    <section class="feature" id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-11">
+            
+            <div class="row">
+              <div class="col-sm-3 border-start-0 f-card">
+                <div class="f-card-inside">
+                  <p class="f-p">01</p><br>
+                  <h2 class="f-h2">DESCRIPTION</h2>
+                </div>
+              </div>
+              <div class="col-sm-3 f-card">
+                <div class="f-card-inside">
+                  <p class="f-p">02</p><br>
+                  <h2 class="f-h2">PERFUMED NOTES</h2>
+                </div>
+              </div>
+              <div class="col-sm-3 f-card">
+                <div class="f-card-inside">
+                  <p class="f-p">03</p><br>
+                  <h2 class="f-h2">FLACON</h2>
+                </div>
+              </div>
+              <div class="col-sm-3 f-card" style="border-right: 1px solid transparent;"> 
+                <div class="f-card-inside">
+                  <p class="f-p">04</p><br>
+                  <h2 class="f-h2">COMPOSITION</h2>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature end -->
+    </section>
+    <!-- hero end -->
+
+    <!-- ingradients start -->
+    <section class="ingradients" id="ingradients">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-11">
+            
+            <div class="row">
+              <div class="col-md-6">
+                <h1 class="i-h1">Fine Fragrances</h1>
+                <p class="car-p i-p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+              </div>
+            </div>
+
+            <!-- responsive -->
+            <div class="row">
+              <div class="col-md-12">
+                  
+                  <div class="center">
+
+                    <div class="item text-center">
+                      <img src="images/ingradients/rose.png" class="card-img-top" alt="rose">
+                      <h5 class="card-title">ROSE DAMASCENA</h5>
+                      <p class="card-text">More commonly known as the Damask rose.</p>
+                    </div>
+                    <div class="item text-center">
+                      <img src="images/ingradients/lavender.png" class="card-img-top" alt="amber">
+                      <h5 class="card-title">lavender</h5>
+                      <p class="card-text">Flowering plant, is among the more versatile floral notes.</p>
+                    </div>
+                    <div class="item text-center">
+                      <img src="images/ingradients/vanilla.png" class="card-img-top" alt="vanilla">
+                      <h5 class="card-title">Vanilla</h5>
+                      <p class="card-text">Grown in Papua New Guinea from Tahitientis variety.</p>
+                    </div>
+                    <div class="item text-center">
+                      <img src="images/ingradients/cherry.png" class="card-img-top" alt="cherry">
+                      <h5 class="card-title">cherry</h5>
+                      <p class="card-text">A fleshy drupe (stone fruit) of the genus <em>Prunus</em> plants.</p>
+                    </div>
+                    <div class="item text-center">
+                      <img src="images/ingradients/sandalwood.png" class="card-img-top" alt="sandalwood">
+                      <h5 class="card-title">sandalwood</h5>
+                      <p class="card-text">Heavy, yellow, and fine-grained aromatic wood.</p>
+                    </div>
+
+                  </div>
+
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- ingradients end -->
+
+    <!-- products start -->
+    <section class="products" id="product">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-11">
+            
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="p-h3">SIMILAR PRODUCTS</h3>
+                <h1 class="p-h1 i-h1">The fragrance<br>larger than life.</h1>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- responsive -->
+      <div class="container">
+        <div class="row pro-top-px-custom">
+        <div class="col-md-12">
+            
+          <div class="s-product">
+
+            <div class="product-single">
+              <div class="row">
+                <div class="col-sm-1 d-flex align-items-end">
+                  <h2 class="p-h2">01</h2>
+                </div>
+                <div class="col-sm-5">
+                  <img src="images/products/carolina-herrera.png" class="img-fluid p-img" alt="carolina-herrera">
+                </div>
+                <div class="col-sm-6">
+                  <div class="p-text">
+                    <h4 class="p-h4">Carolina Herrera</h4>
+                    <p class="p-p">Lamour est un tresor. Depuis sa creation en 1990, lEau de Pafum Tresor incarne lamour absolu sous toutes des.</p>
+                    <a href="#" class="p-a">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="product-single">
+              <div class="row">
+                <div class="col-sm-1 d-flex align-items-end">
+                  <h2 class="p-h2">02</h2>
+                </div>
+                <div class="col-sm-5">
+                  <img src="images/banner/guerlain-perfume.png" class="img-fluid p-img" alt="guerlain-perfume">
+                </div>
+                <div class="col-sm-6">
+                  <div class="p-text">
+                    <h4 class="p-h4">Guerlain</h4>
+                    <p class="p-p">Lamour est un tresor. Depuis sa creation en 1990, lEau de Pafum Tresor incarne lamour absolu sous toutes des.</p>
+                    <a href="#" class="p-a">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-single">
+              <div class="row">
+                <div class="col-sm-1 d-flex align-items-end">
+                  <h2 class="p-h2">03</h2>
+                </div>
+                <div class="col-sm-5">
+                  <img src="images/banner/calvin-klein.png" class="img-fluid p-img" alt="calvin-klein">
+                </div>
+                <div class="col-sm-6">
+                  <div class="p-text">
+                    <h4 class="p-h4">Calvin Klein</h4>
+                    <p class="p-p">Lamour est un tresor. Depuis sa creation en 1990, lEau de Pafum Tresor incarne lamour absolu sous toutes des.</p>
+                    <a href="#" class="p-a">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-single">
+              <div class="row">
+                <div class="col-sm-1 d-flex align-items-end">
+                  <h2 class="p-h2">04</h2>
+                </div>
+                <div class="col-sm-5">
+                  <img src="images/products/versace-man.png" class="img-fluid p-img" alt="versace-man">
+                </div>
+                <div class="col-sm-6">
+                  <div class="p-text">
+                    <h4 class="p-h4">Versace</h4>
+                    <p class="p-p">Lamour est un tresor. Depuis sa creation en 1990, lEau de Pafum Tresor incarne lamour absolu sous toutes des.</p>
+                    <a href="#" class="p-a">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+
+        </div>
+      </div>
+      </div>  
+    </section>
+    <!-- ingradients end -->
+
+    <!-- footer start -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-11">
+            
+            <div class="row align-items-center my-xl-3 py-5">
+              <div class="col-md-2 nav-logo-footer">
+                <img src="images/Logo.png" class="img-fluid nav-logo" alt="besnik">
+              </div>
+              <div class="offset-md-1 col-md-6">
+                <form action="#" class="rounded-pill e-form">
+                  <input type="email" class="form-control" placeholder="Your business email..." required>
+                  <button class="btn btn-custom btn-email rounded-pill" type="submit">Get started 
+                    <button class="btn f-btn-arrow rounded-circle">
+                      <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </button>
+                </form>
+              </div>
+              <div class="offset-md-1 col-md-2">
+                <div class="f-icon d-flex justify-content-md-end justify-content-center">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center pb-4">
+              <div class="col-12 col-sm-6 col-lg-3">
+                <p class="f-p">Copyright © 2020. All Rights Reserved.</p>
+              </div>
+              <div class="col-lg-6 d-none d-lg-block">
+                <nav class="navbar navbar-expand-lg">
+                  <div class="collapse navbar-collapse menu footer-menu" id="navSupport2">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#ingradients">INGREDIENTS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#product">PRODUCT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact">CONTACT</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 d-sm-flex justify-content-sm-end">
+                <p class="f-p">Developed by Rifat Tasneem</p>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="assets/slick/slick.min.js"></script>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

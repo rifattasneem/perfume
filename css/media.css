@@ -1,0 +1,1120 @@
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	/*header*/
+	header{
+		padding: 15px 0;
+	}
+
+	.nav-tog{
+		width: 14%;
+	}
+	.menu ul li a{
+		font-size: 13px;
+		border-bottom: none; 
+	}
+	.menu ul li a:hover,
+	.menu ul li a:focus,
+	.cart-button i:hover,
+	.cart-button i:focus{
+		color: #B2405D !important;
+		border-bottom: none; 
+	}
+	
+	.cart-button:hover,
+	.cart-button:focus {
+	  	filter: none;
+	}
+
+	/*modal*/
+	.modal-body{
+		padding: 1rem 2rem 4rem;
+	}
+
+	.fill-up-form input{
+		margin-bottom: 8px;
+		padding: 7px 15px;
+		font-size: 13px;
+	}
+	.btn-newsletter{
+		margin-top: 5px !important;
+		margin-right: 0px !important;
+		padding: 10px 25px !important;
+	}
+	/*modal*/
+	/*header*/
+
+	/*banner*/
+	.banner{
+		padding: 15px 0;  
+	}
+	.car-h1{
+		margin-bottom: 25px;  
+		padding-top: 0;
+	    font-size: 30px;
+	    text-align: center;
+	    line-height: 42px;
+	}
+	.b-image{
+		padding: 0 25px 0;
+	}
+	.b-image-2{
+		padding: 0 43px 0;
+	}
+
+	.p-top{
+		padding-top: 32px;
+	}
+	.car-h4{ 
+		font-size: 16px;
+		text-align: center;
+	}
+	.car-h2{ 
+		font-size: 26px;
+		text-align: center;
+	}
+	.big{
+		display: flex;
+        justify-content: center;
+	}
+	.big i{
+		margin: 0 2px; 
+		font-size: 14px;
+		text-align: center;
+	}
+	.car-p{ 
+		font-size: 14px;
+		text-align: center;
+	}
+	.car-left{
+		text-align: center; 
+	}
+
+	.btn-custom{
+		margin: 0 5% 0 10%; 
+		padding: 10px 20px; 
+		font-size: 12px;
+	}
+	.play-btn{
+		width: 17%;
+		margin: 0 10% 0 5%; 
+		text-align: center; 
+	}
+
+	.car-prev,.car-next{
+	  	width: 36%;
+	}
+	.car-next{
+		padding-top: 38px;
+	}
+	/*banner*/
+
+	/*feature*/
+	.feature{
+		padding: 40px 0px;  
+	}
+	.f-card{
+		padding: 20px 0;
+	}
+	.f-card-inside{
+		text-align: center; 
+	}
+	.f-p{
+		font-size: 11px;
+	}
+	.f-h2{
+		margin-top: -20px; 
+		font-size: 13px;
+	}
+	/*feature*/
+
+	/*ingredients*/
+	.ingredients{
+		padding: 30px 0;
+	}
+
+	.i-h1{
+		margin-bottom: 13px; 
+		font-size: 34px;
+		text-align: center; 
+	}
+	.center{
+		padding: 20px 0 0; 
+	}
+
+	/*------------
+	card
+	------------*/
+	.item{
+		margin: 0 20px;
+		padding: 40px 0;
+		border-radius: 10px;
+	}
+
+	.card-img-top{
+		padding: 0 50px 15px; 
+	}
+	.card-title{
+		padding: 0 13px; 
+		font-size: 15px;
+	}
+	.card-text{
+		padding: 0 13px; 
+		font-size: 12px;
+	}
+	/*------------
+	card
+	------------*/
+	/*ingredients*/
+
+	/*products*/
+	.products{
+		padding: 90px 0 30px;
+	}
+	.pro-top-px-custom{
+		padding-left: 0; 
+	}
+	.p-h3{
+		font-size: 14px;
+		letter-spacing: 4px;
+		text-align: center; 
+	}
+	.s-product{
+		padding: 10px 0;  
+	}
+
+	/*------------*/
+	.product-single{
+		margin-right: 0;
+		text-align: center; 
+	}
+	.p-h2{
+		display: none;
+	}
+	.p-img{
+		display: inline-block !important;
+		padding: 30px;
+	}
+
+	.p-text{
+		padding-top: 20px;
+	}
+	.p-h4{
+		font-size: 25px; 
+	}
+	.p-p{
+		margin-bottom: 13px;
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.p-a{
+		font-size: 14px; 
+	}
+	/*products*/
+
+	/*footer*/
+	.nav-logo-footer{
+		text-align: center; 
+	}
+	.e-form{
+		margin: 20px 0;
+	  	padding: 6px 11px;
+	}
+	.e-form input{
+	  	font-size: 13px;
+	}
+	.btn-email{
+	  	display: none;
+	}
+	.f-btn-arrow{
+		right: 6px;
+	  	bottom: 4.5px;
+	  	padding: 2px 7px;
+		font-size: 19px;
+	}
+	.f-p{
+		font-size: 12px;
+		text-align: center; 
+	}
+	/*footer*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*header*/
+	header{
+		padding: 20px 0;
+	}
+
+	.nav-tog{
+		width: 8%;
+	}
+	.menu ul li a{
+		font-size: 13px;
+		border-bottom: none; 
+	}
+	.menu ul li a:hover,
+	.menu ul li a:focus,
+	.cart-button i:hover,
+	.cart-button i:focus{
+		color: #B2405D !important;
+		border-bottom: none; 
+	}
+	
+	.cart-button:hover,
+	.cart-button:focus {
+	  	filter: none;
+	}
+
+	/*modal*/
+	.modal-body{
+		padding: 1rem 4rem 4rem;
+	}
+
+	.fill-up-form input{
+		margin-bottom: 8px;
+		padding: 7px 15px;
+		font-size: 13px;
+	}
+	.btn-newsletter{
+		margin-top: 5px;
+		padding: 10px 25px !important;
+	}
+	/*modal*/
+	/*header*/
+
+	/*banner*/
+	.banner{
+		padding: 20px 0;  
+	}
+	.car-h1{
+		padding-top: 0;
+	    font-size: 33px;
+	    text-align: center; 
+	}
+	.b-image{
+		padding: 0 74px 0;
+	}
+	.b-image-2{
+		padding: 0 18px 0;
+	}
+
+	.p-top{
+		padding-top: 50px;
+	}
+	.car-h4{ 
+		font-size: 16px;
+		text-align: center;
+	}
+	.car-h2{ 
+		font-size: 26px;
+		text-align: center;
+	}
+	.big{
+		display: flex;
+        justify-content: center;
+	}
+	.big i{
+		margin: 0 2px; 
+		font-size: 14px;
+		text-align: center;
+	}
+	.car-p{ 
+		font-size: 14px;
+		text-align: center;
+	}
+	.car-left{
+		text-align: left; 
+	}
+
+	.btn-custom{
+		margin-left: 0; 
+		padding: 10px 20px; 
+		font-size: 12px;
+	}
+	.play-btn{
+		width: 23%;
+	}
+
+	.car-prev,.car-next{
+	  	width: 36%;
+	}
+	.car-next{
+		padding-top: 38px;
+	}
+	/*banner*/
+
+	/*feature*/
+	.feature{
+		padding: 20px 0 35px;  
+	}
+	.f-card{
+		padding: 40px 0;
+	}
+	.f-p{
+		font-size: 11px;
+	}
+	.f-h2{
+		margin-top: -20px; 
+		font-size: 13px;
+	}
+	/*feature*/
+
+	/*ingredients*/
+	.ingredients{
+		padding: 30px 0;
+	}
+
+	.i-h1{
+		margin-bottom: 13px; 
+		font-size: 34px;
+		text-align: center; 
+	}
+	.center{
+		padding: 30px 0 0; 
+	}
+
+	/*------------
+	card
+	------------*/
+	.item{
+		margin: 0 23px;
+		padding: 50px 0;
+		border-radius: 10px;
+	}
+
+	.card-img-top{
+		padding: 0 40px 15px; 
+	}
+	.card-title{
+		padding: 0 13px; 
+		font-size: 15px;
+	}
+	.card-text{
+		padding: 0 13px; 
+		font-size: 12px;
+	}
+	/*------------
+	card
+	------------*/
+	/*ingredients*/
+
+	/*products*/
+	.products{
+		padding: 90px 0 30px;
+	}
+	.pro-top-px-custom{
+		padding-left: 7%; 
+	}
+	.p-h3{
+		font-size: 14px;
+		letter-spacing: 4px;
+		text-align: center; 
+	}
+	.s-product{
+		padding: 40px 0;  
+	}
+
+	/*------------*/
+	.product-single{
+		margin-right: 40px;
+	}
+	.p-h2{
+		padding-bottom: 15px; 
+		font-size: 32px;
+	}
+	.p-img{
+		padding-left: 10px;
+	}
+
+	.p-text{
+		padding-top: 20px;
+	}
+	.p-h4{
+		font-size: 25px; 
+	}
+	.p-p{
+		margin-bottom: 13px;
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.p-a{
+		font-size: 14px; 
+	}
+	/*products*/
+
+	/*footer*/
+	.nav-logo-footer{
+		text-align: center; 
+	}
+	.e-form{
+		margin: 20px 0;
+	  	padding: 6px 11px;
+	}
+	.e-form input{
+	  	font-size: 13px;
+	}
+	.btn-email{
+		right: 3px;
+        bottom: 2.2px;
+	  	padding: 9px 44px 9px 14px;
+	  	font-size: 13px;
+	}
+	.f-btn-arrow{
+		right: 6px;
+	  	bottom: 4.5px;
+	  	padding: 2px 7px;
+		font-size: 19px;
+	}
+	.f-p{
+		font-size: 12px;
+	}
+	/*footer*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*header*/
+	header{
+		padding: 22px 0;
+	}
+
+	.menu ul li a{
+		font-size: 13px;
+		border-bottom: none; 
+	}
+	.menu ul li a:hover,
+	.menu ul li a:focus,
+	.cart-button i:hover,
+	.cart-button i:focus{
+		color: #B2405D !important;
+		border-bottom: none; 
+	}
+	.cart-button {
+	    width: 5%;
+	}
+	.cart-button:hover,
+	.cart-button:focus {
+	  filter: none;
+	}
+
+	/*modal*/
+	.modal-body{
+		padding: 1rem 4rem 4rem;
+	}
+
+	.fill-up-form input{
+		margin-bottom: 8px;
+		padding: 7px 15px;
+		font-size: 13px;
+	}
+	.btn-newsletter{
+		margin-top: 5px;
+		padding: 10px 25px !important;
+	}
+	/*modal*/
+	/*header*/
+
+	/*banner*/
+	.banner{
+		padding: 20px 0;  
+	}
+	.car-h1{
+		padding-top: 75px;
+	    font-size: 50px;
+	    line-height: 55px;
+	}
+	.b-image{
+		padding: 0;
+	}
+	.b-image-2{
+		padding: 0 18.5px 0;
+	}
+
+	.p-top{
+		padding-top: 30px;
+	}
+	.car-h4{ 
+		font-size: 14px;
+	}
+	.car-h2{ 
+		font-size: 22px;
+	}
+	.big i{ 
+		font-size: 9px;
+	}
+	.car-p{ 
+		font-size: 12px;
+	}
+
+	.btn-custom{
+		margin-left: 20px; 
+		padding: 10px 20px; 
+		font-size: 12px;
+	}
+	.play-btn{
+		width: 17%;
+	}
+
+	.car-prev,.car-next{
+	  	width: 36%;
+	}
+	.car-next{
+		padding-top: 38px;
+	}
+	/*banner*/
+
+	/*feature*/
+	.feature{
+		padding: 27px 0 45px;  
+	}
+	.f-card{
+		padding: 45px 0;
+	}
+	.f-p{
+		font-size: 13px;
+	}
+	.f-h2{
+		margin-top: -20px; 
+		font-size: 15px;
+	}
+	/*feature*/
+
+	/*ingredients*/
+	.ingredients{
+		padding: 30px 0;
+	}
+
+	.i-h1{
+		margin-bottom: 13px; 
+		font-size: 34px;
+	}
+	.center{
+		padding: 40px 0 0; 
+	}
+
+	/*------------
+	card
+	------------*/
+	.item{
+		margin: 0 7px;
+		padding: 60px 0;
+		border-radius: 10px;
+	}
+
+	.card-img-top{
+		padding: 0 40px 15px; 
+	}
+	.card-title{
+		padding: 0 13px; 
+		font-size: 15px;
+	}
+	.card-text{
+		padding: 0 13px; 
+		font-size: 12px;
+	}
+	/*------------
+	card
+	------------*/
+
+	/*--------slider---------*/
+	.slick-prev, .slick-next {
+	    top: -50px;
+	    width: 30px;
+    	height: 30px;
+	}
+	.slick-prev {
+	    left: 87.2%;
+	}
+	.slick-next {
+	    right: 3%;
+	    margin-top: 14.5px;
+	}
+	/*--------slider---------*/
+	/*ingredients*/
+
+	/*products*/
+	.products{
+		padding: 90px 0 30px;
+	}
+	.p-h3{
+		font-size: 14px;
+		letter-spacing: 4px;
+	}
+	.s-product{
+		padding: 40px 0;  
+	}
+
+	/*------------*/
+	.product-single{
+		margin-right: 20px;
+	}
+	.p-h2{
+		padding-bottom: 10px; 
+		font-size: 30px;
+	}
+	.p-img{
+		padding-left: 10px;
+	}
+
+	.p-text{
+		padding-top: 0;
+	}
+	.p-h4{
+		font-size: 19px; 
+	}
+	.p-p{
+		margin-bottom: 5px;
+		font-size: 12px;
+		line-height: 19px;
+	}
+	.p-a{
+		font-size: 13px; 
+	}
+	/*products*/
+
+	/*footer*/
+	.e-form{
+	  	padding: 6px 11px;
+	}
+	.e-form input{
+	  	font-size: 13px;
+	}
+	.btn-email{
+		right: 3px;
+        bottom: 2.2px;
+	  	padding: 9px 44px 9px 14px;
+	  	font-size: 13px;
+	}
+	.f-btn-arrow{
+		right: 6px;
+	  	bottom: 4.5px;
+	  	padding: 2px 7px;
+		font-size: 19px;
+	}
+
+	.f-p{
+		font-size: 12px;
+	}
+	/*footer*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*header*/
+	header{
+		padding: 22px 0;
+	}
+
+	.menu ul li a{
+		font-size: 13px; 
+	}
+	.cart-button {
+	    width: 5%;
+	}
+
+	/*modal*/
+	.modal-body{
+		padding: 1rem 5rem 6rem;
+	}
+
+	.fill-up-form input{
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+	/*modal*/
+	/*header*/
+
+	/*banner*/
+	.banner{
+		padding: 35px 0;  
+	}
+	.car-h1{
+		padding-top: 100px;
+		font-size: 70px;
+		line-height: 80px;
+	}
+	.b-image{
+		padding: 0 25px 0;
+	}
+	.b-image-2{
+		padding: 0 46px 0;
+	}
+
+	.p-top{
+		padding-top: 86px;
+	}
+	.car-h4{ 
+		font-size: 16px;
+	}
+	.car-h2{ 
+		font-size: 32px;
+	}
+	.big i{ 
+		font-size: 9px;
+	}
+	.car-p{ 
+		font-size: 15px;
+	}
+
+	.btn-custom{
+		font-size: 15px;
+	}
+	.play-btn{
+		width: 17%;
+	}
+
+	.car-prev,.car-next{
+	  	width: 36%;
+	}
+	.car-next{
+		padding-top: 38px;
+	}
+	/*banner*/
+
+	/*feature*/
+	.feature{
+		padding: 27px 0 45px;  
+	}
+	.f-card{
+		padding: 55px 0;
+	}
+	.f-p{
+		font-size: 14px;
+	}
+	.f-h2{
+		margin-top: -20px; 
+		font-size: 19px;
+	}
+	/*feature*/
+
+	/*ingredients*/
+	.ingredients{
+		padding: 35px 0;
+	}
+
+	.i-h1{
+		margin-bottom: 15px; 
+		font-size: 45px;
+	}
+	.i-p{
+		font-size: 14px; 
+	}
+	.center{
+		padding: 55px 0 0; 
+	}
+
+	/*------------
+	card
+	------------*/
+	.item{
+		margin: 0 15px;
+		padding: 75px 0;
+	}
+
+	.card-img-top{
+		padding: 0 65px 15px; 
+	}
+	.card-title{
+		padding: 0 25px; 
+		font-size: 16px;
+	}
+	.card-text{
+		padding: 0 25px; 
+		font-size: 14px;
+	}
+	/*------------
+	card
+	------------*/
+
+	/*--------slider---------*/
+	.slick-prev, .slick-next {
+	    top: -45px;
+	    width: 35px;
+    	height: 35px;
+	}
+	.slick-prev {
+	    left: 88%;
+	}
+	.slick-next {
+	    right: 3.5%;
+	    margin-top: 17.5px;
+	}
+	/*--------slider---------*/
+	/*ingredients*/
+
+	/*products*/
+	.products{
+		padding: 110px 0 40px;
+	}
+	.p-h3{
+		font-size: 16px;
+		letter-spacing: 7px;
+	}
+	.s-product{
+		padding: 60px 0;  
+	}
+
+	/*------------*/
+	.product-single{
+		margin-right: 40px;
+	}
+	.p-h2{
+		padding-bottom: 10px; 
+		font-size: 40px;
+	}
+	.p-img{
+		padding-left: 20px;
+	}
+
+	.p-text{
+		padding-top: 5px;
+	}
+	.p-h4{
+		font-size: 25px; 
+	}
+	.p-p{
+		margin-bottom: 10px;
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.p-a{
+		font-size: 15px; 
+	}
+	/*products*/
+
+	/*footer*/
+	.e-form{
+	  	padding: 9px 13px;
+	}
+	.e-form input{
+	  	font-size: 16px;
+	}
+	.btn-email{
+	  	padding: 12px 65px 12px 24px;
+	  	font-size: 15px;
+	}
+	.f-btn-arrow{
+	  	bottom: 6.5px;
+		font-size: 24px;
+	}
+
+	.f-p{
+		font-size: 10px;
+	}
+
+	.footer-menu{
+		font-size: 12px;
+	}
+	.footer-menu ul li a{
+		margin: 0 25px;
+	}
+	/*footer*/
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+	/*header*/
+	header{
+		padding: 25px 0;
+	}
+
+	.menu ul li a{
+		font-size: 13.5px; 
+	}
+
+	/*modal*/
+	.modal-body{
+		padding: 2rem 6rem 7rem;
+	}
+
+	.fill-up-form input{
+		margin-bottom: 12px;
+		font-size: 16px;
+	}
+	/*modal*/
+	/*header*/
+
+	/*banner*/
+	.banner{
+		padding: 42px 0;  
+	}
+	.car-h1{
+		padding-top: 90px;
+		font-size: 80px;
+		line-height: 90px;
+	}
+	.b-image{
+		padding: 0 25px 0;
+	}
+	.b-image-2{
+		padding: 0 51px 0;
+	}
+
+	.p-top{
+		padding-top: 110px;
+	}
+	.car-h4{ 
+		font-size: 19px;
+	}
+	.car-h2{ 
+		font-size: 35px;
+	}
+	.big i{ 
+		font-size: 9px;
+	}
+	.car-p{ 
+		font-size: 16px;
+	}
+
+	.btn-custom{
+		font-size: 16px;
+	}
+	.play-btn{
+		width: 15%;
+	}
+
+	.car-next{
+		padding-top: 40px;
+	}
+	/*banner*/
+
+	/*feature*/
+	.feature{
+		padding: 30px 0 55px;  
+	}
+	.f-card{
+		padding: 55px 0;
+	}
+	.f-p{
+		font-size: 15px;
+	}
+	.f-h2{
+		margin-top: -20px; 
+		font-size: 20px;
+	}
+	/*feature*/
+
+	/*ingredients*/
+	.ingredients{
+		padding: 45px 0 0;
+	}
+
+	.i-h1{
+		margin-bottom: 20px; 
+		font-size: 52px;
+	}
+	.center{
+		padding: 60px 0 0; 
+	}
+
+	/*------------
+	card
+	------------*/
+	.item{
+		margin: 0 20px;
+		padding: 85px 0;
+	}
+
+	.card-img-top{
+		padding: 0 75px 18px; 
+	}
+	.card-title{
+		padding: 0 30px; 
+		font-size: 18px;
+	}
+	.card-text{
+		padding: 0 30px; 
+		font-size: 15px;
+	}
+	/*------------
+	card
+	------------*/
+
+	/*--------slider---------*/
+	.slick-prev {
+	    left: 90%;
+	}
+	/*--------slider---------*/
+	/*ingredients*/
+
+	/*products*/
+	.products{
+		padding: 120px 0 45px;
+	}
+	.p-h3{
+		font-size: 17px;
+		letter-spacing: 8px;
+	}
+	.s-product{
+		padding: 70px 0;  
+	}
+
+	/*------------*/
+	.product-single{
+		margin-right: 40px;
+	}
+	.p-h2{
+		padding-bottom: 20px; 
+		font-size: 48px;
+	}
+	.p-img{
+		padding-left: 20px;
+	}
+
+	.p-text{
+		padding-top: 10px;
+	}
+	.p-h4{
+		font-size: 30px; 
+	}
+	.p-p{
+		margin-bottom: 17px;
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.p-a{
+		font-size: 17px; 
+	}
+	/*products*/
+
+	/*footer*/
+	.e-form{
+	  	padding: 9px 13px;
+	}
+	.e-form input{
+	  	font-size: 16px;
+	}
+	.btn-email{
+	  	padding: 12px 65px 12px 24px;
+	  	font-size: 15px;
+	}
+	.f-btn-arrow{
+	  	bottom: 6.5px;
+		font-size: 24px;
+	}
+
+	.f-p{
+		font-size: 12px;
+	}
+
+	.footer-menu{
+		font-size: 12px;
+	}
+	.footer-menu ul li a{
+		margin: 0 34px;
+	}
+	/*footer*/
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px){
+
+}
